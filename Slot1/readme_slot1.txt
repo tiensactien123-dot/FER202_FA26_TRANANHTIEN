@@ -1,3 +1,3 @@
 FER202 - Slot 1
-Student: Nguyen Kim Anh Duy
+Student: Tran Anh Tien
 This is my Slot 1 project.
