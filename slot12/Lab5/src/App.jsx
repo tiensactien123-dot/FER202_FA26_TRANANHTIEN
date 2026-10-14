@@ -1,8 +1,32 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import MyCarousel from './components/MyCarousel';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import New from './pages/New';
+import Contact from './pages/Contact';
+
 function App() {
   return (
-    <div className="container mt-4">
-      <h1>Lab5</h1>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+
+      <MyCarousel />
+
+      <main className="container mt-4 mb-5">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/new" element={<New />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+
+      <Footer />
+    </BrowserRouter>
   );
 }
 
