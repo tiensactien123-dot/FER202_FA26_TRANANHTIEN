@@ -10,7 +10,7 @@ function Home() {
         </p>
 
         <h1 className="display-4 fw-bold">
-          Nguyễn Kim Anh Duy
+          Trần Anh Tiến
         </h1>
 
         <p className="lead text-muted mt-3">
