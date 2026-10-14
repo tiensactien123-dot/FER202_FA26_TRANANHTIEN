@@ -8,11 +8,11 @@ function ContactPage() {
       <Card className="shadow-sm">
         <Card.Body>
           <p>
-            <strong>Họ tên:</strong> Nguyễn Kim Anh Duy
+            <strong>Họ tên:</strong> Trần Anh Tiến
           </p>
 
           <p>
-            <strong>Email:</strong> nguyenkimanhduy811@gmail.com
+            <strong>Email:</strong> tiensactien123@gmail.com
           </p>
 
           <p className="mb-0">
