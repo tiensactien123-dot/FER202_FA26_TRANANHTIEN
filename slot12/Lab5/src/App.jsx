@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import ProductList from './pages/ProductList';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import MyCarousel from './components/MyCarousel';
@@ -18,6 +18,7 @@ function App() {
 
       <main className="container mt-4 mb-5">
         <Routes>
+          <Route path="/products" element={<ProductList />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/new" element={<New />} />
